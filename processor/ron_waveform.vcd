@@ -1,0 +1,105 @@
+$date
+     May 20, 2017       19:26:25
+$end
+
+$version
+ SystemC 2.3.1-Accellera --- Feb 25 2017 20:21:25
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    1  aaaaa  clock       $end
+$var wire    1  aaaab  reset       $end
+$var wire    1  aaaac  cs0       $end
+$var wire    1  aaaad  oe0       $end
+$var wire    1  aaaae  we0       $end
+$var wire    1  aaaaf  cs1       $end
+$var wire    1  aaaag  oe1       $end
+$var wire    1  aaaah  we1       $end
+$var wire    5  aaaai  address0 [4:0]  $end
+$var wire    5  aaaaj  address1 [4:0]  $end
+$var wire   32  aaaak  data_in0 [31:0]  $end
+$var wire   32  aaaal  data_out0 [31:0]  $end
+$var wire   32  aaaam  data_in1 [31:0]  $end
+$var wire   32  aaaan  data_out1 [31:0]  $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+1aaaaa
+1aaaab
+0aaaac
+0aaaad
+0aaaae
+0aaaaf
+0aaaag
+0aaaah
+b0 aaaai
+b0 aaaaj
+b0 aaaak
+b0 aaaal
+b0 aaaam
+b0 aaaan
+$end
+
+#2000
+0aaaaa
+
+#4000
+1aaaaa
+
+#6000
+0aaaaa
+0aaaab
+1aaaac
+1aaaae
+b11 aaaai
+b11 aaaaj
+b110111 aaaak
+
+#8000
+1aaaaa
+
+#10000
+0aaaaa
+
+#12000
+1aaaaa
+0aaaac
+1aaaad
+0aaaae
+1aaaaf
+1aaaag
+b110111 aaaan
+
+#14000
+0aaaaa
+
+#16000
+1aaaaa
+
+#18000
+0aaaaa
+
+#20000
+1aaaaa
+
+#22000
+0aaaaa
+
+#24000
+1aaaaa
+
+#26000
+0aaaaa
+
+#28000
+1aaaaa
+
